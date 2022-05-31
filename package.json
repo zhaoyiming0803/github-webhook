@@ -1,0 +1,19 @@
+{
+  "name": "webhook",
+  "version": "1.0.0",
+  "description": "run github webhook",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "zhaoyiming0803",
+  "license": "ISC",
+  "devDependencies": {
+    "koa": "^2.8.1",
+    "koa-bodyparser": "latest",
+    "koa-router": "latest",
+    "nodemon": "^2.0.15",
+    "raw-body": "^2.4.1",
+    "request": "^2.88.2"
+  }
+}
